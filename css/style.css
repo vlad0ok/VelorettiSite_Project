@@ -62,7 +62,7 @@ p {
   display: flex;
   align-items: center;
   min-height: 828px;
-  background-image: url(/images/bgwelcome.png);
+  background-image: url(//images/bgwelcome.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -118,7 +118,7 @@ p {
   align-items: center;
   width: 100%;
   height: 826px;
-  background-image: url(/images/serviceimage.png);
+  background-image: url(//images/serviceimage.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -205,7 +205,7 @@ p {
 }
 
 .how-text h3::before {
-  content: url(/images/true.svg);
+  content: url(//images/true.svg);
   margin-right: 10px;
 }
 
@@ -319,7 +319,7 @@ textarea {
 .get-section button {
   width: 100%;
   padding: 20px;
-  border: none;
+  border: 1px solid #141615;
   border-radius: 30px;
   background-color: #141615;
   color: #ffffff;
@@ -329,7 +329,7 @@ textarea {
 
 .get-section button:hover {
   transition: all 0.5s;
-  background-color: #606160;
+  background-color: transparent;
   color: #141615;
 }
 
@@ -352,7 +352,7 @@ textarea {
 .book-section button {
   background-color: #ffffff;
   color: #141615;
-  border: none;
+  border: 1px solid #ffffff;
   border-radius: 60px;
   padding: 15px 60px;
   font-weight: 700;
@@ -362,7 +362,7 @@ textarea {
 
 .book-section button:hover {
   transition: all 0.5s;
-  background-color: #141615;
+  background-color: transparent;
   color: #ffffff;
 }
 
